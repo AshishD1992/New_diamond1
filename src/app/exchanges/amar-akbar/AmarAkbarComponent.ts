@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-amar-akbar',
@@ -8,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AmarAkbarComponent implements OnInit {
 
-  constructor() { }
+  open: boolean = true;
+   disabled: boolean = true;
+  modalRef!: BsModalRef;
+   constructor(private modalService: BsModalService) {}
 
-  ngOnInit(): void {
-  }
+   openModal(template: TemplateRef<any>) {
+      this.modalRef = this.modalService.show(template);
+   }
 
+   ngOnInit(): void {
+   }
+   log(isOpened: boolean){
+    console.log(isOpened);
+ }
 }
