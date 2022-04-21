@@ -1,0 +1,22 @@
+@import "src/change.scss";
+.c_odds_title, .c_odds_value {
+   
+    height: 36px;
+}
+.right-sidebar.casino-right-sidebar {
+    width: 384px;
+    background-color: #fff;
+    padding: 0;
+    transform: translate3d(0px, -649px, 0px);
+    padding-left: 4px;
+    margin-left: 956px;
+}
+.casino-section{
+    width: 96.5%;
+    margin-left: 12px;
+}
+
+.result-card {
+    text-align: center;
+    margin-top: 10px;
+}
