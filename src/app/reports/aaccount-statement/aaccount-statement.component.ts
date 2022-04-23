@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AaccountStatementComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  
+  constructor() {
   }
-
+  ngOnInit(): void {
+    
+  }
 }
+  

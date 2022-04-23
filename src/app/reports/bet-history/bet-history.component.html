@@ -7,14 +7,20 @@
     <div class="border border-light">
  <div class="filter m-2">
   <div class="form-row align-items-center">
-      <div class="col-md-3 col-lg-2 col-6">
- <input type="text" name="from" placeholder="Datepicker" bsdatepicker="" class="form-control ng-untouched ng-pristine ng-valid"><!---->
-</div>
-<div class="col-md-3 col-lg-2 col-6">
-<input type="text" name="to" placeholder="Datepicker" bsdatepicker="" class="form-control ng-untouched ng-pristine ng-valid"><!---->
-</div>
+    <div class="col-xs-12 col-12 col-md-4 form-group">
+        <input type="text" name="from"
+              placeholder="Datepicker"
+              class="form-control"
+              bsDatepicker>
+      </div>
+      <div class="col-xs-12 col-12 col-md-4 form-group">
+        <input type="text" name="to"
+              placeholder="Daterangepicker"
+              class="form-control"
+              bsDaterangepicker>
+      </div>
 <div class="col-md-2 col-12">
-    <select name="reportType" class="custom-select ng-untouched ng-pristine ng-valid">
+    <select name="reportType" class="custom-select ng-untouched ng-pristine ng-valid" style=" margin-top: -12px;">
         <option value="">All</option>
         <option value="4">Cricket</option>
         <option value="1">Football</option>
@@ -23,7 +29,7 @@
         <!----></select>
     </div>
 <div class="col-md-2 col-lg-1 col-12">
-    <button type="button" class="btn btn-primary btn-block">submit</button>
+    <button type="button" class="btn btn-primary btn-block" style=" margin-top: -12px;">submit</button>
 </div>
 </div>
 </div>

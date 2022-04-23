@@ -5,9 +5,10 @@ import { AaccountStatementComponent } from './aaccount-statement/aaccount-statem
 import { ProfitLossComponent } from './profit-loss/profit-loss.component';
 import { BetHistoryComponent } from './bet-history/bet-history.component';
 import { UnsettledBetComponent } from './unsettled-bet/unsettled-bet.component';
-import { BsDatepickerModule } from 'ngx-bootstrap/datepicker'
+import {  BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { SharedModule } from '../shared.module';
 import { ReportsComponent } from './reports.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -33,7 +34,8 @@ const routes: Routes = [
         CommonModule,
         RouterModule.forChild(routes),
         BsDatepickerModule.forRoot(),
-        SharedModule
+        SharedModule,
+     
       ],
       exports: [RouterModule],
       schemas: [

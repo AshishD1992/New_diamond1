@@ -63,7 +63,7 @@ const routes: Routes = [
    {path:'amar-akbar-virtual', component:  AmarAkbarVirtualComponent,},
    {path:'six-poker-virtual', component:  SixPokerVirtualComponent,},
    {path:'video', component: VideoComponent,},
-
+  //  {path:'my-bet-casino', component: MyBetCasinoComponent,},
     ]
   }]
 
