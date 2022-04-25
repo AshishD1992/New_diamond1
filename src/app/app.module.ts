@@ -12,7 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-// import { ReportsComponent } from './reports/reports.component';
+import { CricketComponent } from './sports/cricket/cricket.component';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { RulesComponent } from './rules/rules.component';
 import { SetButtonValueComponent } from './set-button-value/set-button-value.component';
@@ -23,7 +23,9 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabsModule, TabsetConfig } from 'ngx-bootstrap/tabs';
 
-
+import { FootballComponent } from './sports/football/football.component';
+import { TennisComponent } from './sports/tennis/tennis.component';
+import { ElectionComponent } from './sports/election/election.component';
 
 @NgModule({
   declarations: [
@@ -40,8 +42,11 @@ import { TabsModule, TabsetConfig } from 'ngx-bootstrap/tabs';
           // SportEventComponent,
           SidenavComponent,
           HeaderComponent,
-          NavbarComponent
-
+          NavbarComponent,
+          CricketComponent,
+          FootballComponent,
+          TennisComponent,
+          ElectionComponent 
 
 
 

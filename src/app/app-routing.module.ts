@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { RulesComponent } from './rules/rules.component';
 import { SetButtonValueComponent } from './set-button-value/set-button-value.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { CricketComponent } from './sports/cricket/cricket.component';
+import { FootballComponent } from './sports/football/football.component';
+import { TennisComponent } from './sports/tennis/tennis.component';
+import { ElectionComponent } from './sports/election/election.component';
 
 const routes: Routes = [
 
@@ -22,6 +26,11 @@ const routes: Routes = [
   {path:'rules', component:  RulesComponent,},
   {path:'set-button-value', component: SetButtonValueComponent,},
   {path:'change-password', component: ChangePasswordComponent,},
+  {path:'change-password', component: ChangePasswordComponent,},
+  {path:'cricket', component:  CricketComponent,},
+  {path:'football', component:  FootballComponent ,},
+  {path:'tennis', component:  TennisComponent,},
+  {path:'election ', component:  ElectionComponent ,},
   // {
   //   path: 'sports',
   //   loadChildren: () =>

@@ -16,7 +16,7 @@
     <div id="element" class="casino-container">
         <div class="casino-table"><div class="casino-video"><div class="casino-video-title">
             <span class="casino-name">One-Day Teenpatti <small>
-                <a href="javascript:void(0)" (click)="openModal(templaterule)">rules</a></small>
+                <a href="javascript:void(0)"   (click)="openModal(templaterule)">rules</a></small>
             </span>
                 <span class="casino-video-rid">Round ID: 21539905 <span class="c-min-max-head"> | Min: 100 | Max: 300000</span></span>
             </div>
@@ -104,9 +104,9 @@
         <div _ class="bets-section" style="position: relative;">
             <h2 _>Place Bet</h2></div>
         </app-bet-slip-casino>
-        <app-my-bets-casino >
+        <!-- <app-my-bet-casino > -->
             <div  class="bets-section"><h2 >My Bet</h2><div  class="p-1"><table  class="table"><thead ><tr ><td >Matched Bet </td><td >Odds</td><td >Stake</td></tr></thead><tbody ><tr ><td  colspan="3" class="text-center"> No records Found</td></tr></tbody></table></div></div>
-</app-my-bets-casino>
+<!-- </app-my-bet-casino> -->
 </div>
 
 
@@ -141,8 +141,8 @@
 <!------ Rules----- -->
 <ng-template #templaterule>
     
- <app-modal></app-modal>
-  
+   
+  <app-modal></app-modal>
 </ng-template>
 
 
